@@ -1,15 +1,17 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Cabezal from "./componentes/Cabezal/Cabezal";
-import Pie from "./componentes/Pie";
-import Contenido from "./componentes/Contenido/Contenido";
+import './App.css';
+import './estilosDashboard.css';
+
+import MiHeader from "./componentes/MiHeader";
+import MiMain from "./componentes/MiMain";
+import MiFooter from "./componentes/MiFooter";
+
 
 const App = () => {
   return (
     <>
-      <Cabezal></Cabezal>
-      <Contenido></Contenido>
-      <Pie></Pie>
+    <MiHeader className="fondoPrincipal"></MiHeader>
+    <MiMain className="fondoPrincipal"></MiMain>
+    <MiFooter className="fondoPrincipal"></MiFooter>
     </>
   );
 };

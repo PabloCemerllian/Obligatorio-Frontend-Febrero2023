@@ -1,4 +1,4 @@
-body{
+/* .fondoPrincipal{
     background-image: url('/obligatorio-feb-23/src/imagenes/fondo2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -7,30 +7,11 @@ body{
 }
 
 
-/* main{
-    background-color: rgba(255, 255, 255,0.8);
-} */
+
 footer{
     background-color: yellow;
 }
-/* #movimientos{
-    background-color: blue;
-}
 
-#ingreso{
-    background-color: red;
-}
-
-#gasto{
-    background-color: orange;
-}
-#graficas{
-    background-color: green;
-}
-
-#totales{
-    background-color: purple;
-} */
 h1{
     margin-top: 10px;
     font-family: 'Roboto', sans-serif;
@@ -50,7 +31,7 @@ h4{
     background-color: rgba(255, 255, 255,0.8);
     border-radius: 4%;
     margin:1%;
-} 
+}  */
 
 
 
